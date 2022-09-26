@@ -1,1 +1,1 @@
-# Blood-Donation-database
+Blood Donation Database is an online-based blood search database management system developed in PHP. The purpose of this project is to develop an online blood management information search portal. The main aim of this project is to help users to find and manage blood at ease and in the minimum time possible and to provide blood donation service to the people in need by area wise. 
