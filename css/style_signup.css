@@ -1,0 +1,84 @@
+html,
+body{
+	/*height: 100%;*/
+	background-color: #ffffff !important;
+	font-family: "Roboto",sans-serif;
+}
+.global-container{
+	/*height: 100%;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0db8de ;
+	width: 100%;
+
+}
+form{
+	padding-top: 30px;
+	font-size: 14px;
+	margin-top: 30px;
+
+	width: 100%;
+
+}
+
+.main-box{
+	display: flex;
+	column-gap: 30px;
+	width: 100%;
+}
+
+.left-side{
+	width: 50%;
+
+}
+.right-side{
+	width: 50%;
+}
+.signup-form{
+	width: 700px;
+	height: 850px;
+	margin: 20px;
+	background: #1a2226 !important;
+	border-radius: 10px !important;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="Date"],
+input[type="blood"]{
+	background: #1a2226;
+	border: 2px solid #0db8de;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+/*input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="Date"]:focus,*/
+input:focus{
+
+	outline: none;
+	border: none;
+	background: #1a2226;
+	margin: 0;
+}
+
+.card-title{
+	font-weight: 900;
+	padding-top: 20px;
+}
+.btn{
+	background: #0db8de !important;
+	font-size: 14px;
+	transform: translateY(10px);
+	border-radius: 10px !important;
+
+}
